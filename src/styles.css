@@ -183,4 +183,8 @@ footer{
     .body-pd {
         padding-left: calc(var(--nav-width) + 188px)
     }
+
+    footer {
+        padding: 0 2rem 0 calc(var(--nav-width) + 2rem)
+    }
 }
