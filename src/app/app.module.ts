@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { AppRoutes } from './app-routing';
 import { HeaderComponent } from './shared/components/header/header.component';
+import { MenuComponent } from './shared/components/menu/menu.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 
 import { ClientesComponent } from './components/Clientes/Clientes.component';
@@ -13,8 +14,9 @@ import { ClientesComponent } from './components/Clientes/Clientes.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
     HeaderComponent,
+    MenuComponent,
+    FooterComponent,
     ClientesComponent
   ],
   imports: [
